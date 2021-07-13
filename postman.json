@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "6fc7a713-e119-48a9-9edd-14dc5099fbdf",
+		"name": "SuperTest Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Demo 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9773/demo-1/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9773",
+					"path": [
+						"demo-1",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Demo 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9773/demo-2/pong",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9773",
+					"path": [
+						"demo-2",
+						"pong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Demo 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9773/demo-3/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9773",
+					"path": [
+						"demo-3",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
