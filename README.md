@@ -8,3 +8,4 @@ Try to find the error in the code or unit test on your own before checking out t
 # Setup
 
 1. Copy `.env.dist` to `.env`
+2. Run `npm run dev`
