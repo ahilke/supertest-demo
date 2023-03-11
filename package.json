@@ -22,6 +22,10 @@
         "dev": "npm run build:clean && nest start --watch",
         "test": "jest"
     },
+    "engines": {
+        "node": ">=18.15.0",
+        "npm": ">=9.5.0"
+    },
     "dependencies": {
         "@nestjs/common": "^7.6.18",
         "@nestjs/config": "^0.6.3",
