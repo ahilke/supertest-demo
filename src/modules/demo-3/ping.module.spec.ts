@@ -8,15 +8,12 @@ import { PingModule } from "./ping.module";
  * What went wrong?
  *
  * Here we use an interceptor to transform the response body, but its implementation is faulty.
- * NestJS has many ways to interact with requests and responses outside of controller functions 
+ * NestJS has many ways to interact with requests and responses outside of controller functions
  * (various decorators, interceptors, pipes, filters and more), which can combine to a complex system.
- * 
- * These components can be added to your test module for a unit test as well, but in that case testing a
- * different system that might be different from your production code.
  * SuperTest helps you to ensure correct behavior in such a complex system.
- * 
+ *
  * Writing tests this way also makes them more robust against changes of implementation details.
- * For example, when moving functionality between controllers and middlewares, these integration 
+ * For example, when moving functionality between controllers and middlewares, these integration
  * tests do not need to be changed.
  */
 describe("Ping Controller Integration Test", () => {
